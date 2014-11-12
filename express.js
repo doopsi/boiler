@@ -71,7 +71,7 @@ $(document).ready(function(){
     if(location.hostname.toString() !== "assets.txmblr.com"){
         function resize_handle(){
             if($('body').hasClass('index-page')){
-                if($(window).width() <= 768){ 
+                if($(window).width() <= 790){ 
                     $('.photo-img').each(function(){
                         $(this).attr('src', $(this).data('highres'));
                     });
