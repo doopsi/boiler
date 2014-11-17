@@ -42,7 +42,7 @@ $(document).ready(function(){
                        };
                        photosetPackage.push(packagePart);
                        $(this).on('click',function(){
-                           Tumblr.Lightbox(photosetPackage,$(this).data('count'));
+                           Tumblr.Lightbox.init(photosetPackage,$(this).data('count'));
                        });
                     });
                 });
